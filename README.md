@@ -4,6 +4,8 @@ A shell utility for the automatic execution of the previous command with elevate
 
 ## Description
 The oops utility is designed for Linux users who frequently execute commands that require root permissions. Instead of re-typing the command with sudo, the user can simply type 'oops'. The script retrieves the last executed command from the shell history and re-runs it within a sudo bash subshell.
+## Demo
+![OOPS Demo](oops%20demo.png)
 
 ## Features
 - **One-Line Installation**: Remote installation script for rapid deployment.
@@ -13,8 +15,9 @@ The oops utility is designed for Linux users who frequently execute commands tha
 
 ## Installation
 Execute the following command to download and install oops automatically:
-
+```bash
 curl -sSL https://raw.githubusercontent.com/xoodymoon/oops/main/install.sh | bash
+```
 
 ## Usage
 $ pacman -Syu
