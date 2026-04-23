@@ -7,11 +7,6 @@ The oops utility is designed for Linux users who frequently execute commands tha
 ## Demo
 ![OOPS Demo](oops%20demo.png)
 
-## Features
-- **One-Line Installation**: Remote installation script for rapid deployment.
-- **Pipe Support**: Uses 'bash -c' to ensure that piped commands and redirects handle permissions correctly.
-- **Infinite Loop Protection**: Logic to prevent the script from attempting to sudo itself.
-- **Dual Shell Support**: Compatible with both Bash and Zsh environments.
 
 ## Installation
 Execute the following command to download and install oops automatically:
